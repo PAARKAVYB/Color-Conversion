@@ -14,9 +14,9 @@ Read the saved image using cv2.imread("filename.jpg").
 ### STEP 3:
 Convert the image into the given color transformation using cv2.cvtColor(image, cv2.BGR2YCrCb) and similarly for other color formats.
 ### STEP 4:
-Split and merge the image using cv2.split(hsv) and cv2.merge([h,s,v])
+Split and merge the image using cv2.split(hsv) and cv2.merge([h,s,v]).
 ### STEP 5:
-Output the image using cv2.imshow("OUTPUT", image)
+Output the image using cv2.imshow("OUTPUT", image).
 
 ## PROGRAM:
 ```
@@ -140,7 +140,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-# v) Split and merge HSV Image
+# v) Split and Merge HSV Image
 
 ```
 import cv2
